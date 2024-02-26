@@ -2,6 +2,10 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
+        screens:{
+            sm:"375px",
+            md:"1440px"
+        },
         extend: {
             fontSize: {
                 base: '15px'
